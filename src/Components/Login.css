@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+  justify-content: center;
+  /* width: 600px; */
+  flex-direction: column;
+  margin: auto;
+  background:linear-gradient(#337482, #57BDB9) ;
+  height: 100vh;
+}
+.login-form{
+  background-color: #202D4C;
+  /* width: 600px; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 10px;
+  gap: 14px;
+  /* box-shadow: 0 8px 2px -2px gray; */
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.input-field{
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 480px;
+  height: 40px;
+  border-radius: 8px;
+  width: 300px;
+  background-color: #4E5973;
+  color: #98A0B8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.field-icons{
+  color: #98A0B8;
+  margin: 0px 10px;
+}
+
+.login-logo{
+  color: #7C829D;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+}
+.bottom-input{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+}
+.inputs{
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  height: 30px;
+  color: #98A0B8;
+}
+.forgot-pass{
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.remember{
+  margin-right: 40px;
+  color: #70F1E1;
+  cursor: pointer;
+
+}
+.forgot{
+  margin-left: 20px;
+  color: #70F1E1;
+  cursor: pointer;
+
+}
+.login-btn{
+  margin-top: 30px;
+  /* width: 400px; */
+}
+.log-btn{
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #70F1E1;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+.signin-btn{
+  margin-top: -20px;
+}
+.sign-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background-color: #70F1E1;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-bottom: 30px;
+  /* margin-top: -10px; */
+}
